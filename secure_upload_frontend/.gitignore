@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Angular build
+dist/
+out-tsc/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Angular CLI
+.angular/
+.angular.json
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Testing
+coverage/
+karma.conf.js
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db

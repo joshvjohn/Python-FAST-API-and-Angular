@@ -1,0 +1,30 @@
+{
+  "name": "secure-upload-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "ng serve --open",
+    "start:dev": "ng serve --host 0.0.0.0 --port 4200 --no-open",
+    "build": "ng build",
+    "start:static": "python -m http.server 4200 --directory demo",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/core": "^16.2.12",
+    "@angular/common": "^16.2.12",
+    "@angular/platform-browser": "^16.2.12",
+    "@angular/platform-browser-dynamic": "^16.2.12",
+    "@angular/router": "^16.2.12",
+    "@angular/compiler": "^16.2.12",
+    "@angular/forms": "^16.2.12",
+    "rxjs": "^7.8.2",
+    "tslib": "^2.6.0"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6",
+    "@angular/cli": "^16.2.16",
+    "@angular-devkit/build-angular": "^16.2.16",
+    "@angular/compiler-cli": "^16.2.12",
+    "zone.js": "~0.13.0"
+  }
+}
